@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Цвета теперь определяются в Theme.kt и colorScheme -->
+    <style name="Theme.ReadingRoom" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Убрали определения цветов, чтобы они брались из Compose MaterialTheme -->
+
+        <!-- Оставили ссылки на стили текста, если они используются -->
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.ReadingRoom.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.ReadingRoom.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.ReadingRoom.DisplaySmall</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.ReadingRoom.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.ReadingRoom.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.ReadingRoom.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.ReadingRoom.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.ReadingRoom.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.ReadingRoom.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.ReadingRoom.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.ReadingRoom.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.ReadingRoom.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.ReadingRoom.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.ReadingRoom.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.ReadingRoom.LabelSmall</item>
+    </style>
+</resources>

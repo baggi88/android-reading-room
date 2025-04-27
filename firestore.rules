@@ -1,0 +1,38 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Правила для коллекции пользователей
+    match /users/{userId} {
+      // Разрешить читать свой профиль
+      allow get: if request.auth != null && request.auth.uid == userId;
+      
+      // Разрешить ЛЮБОМУ аутентифицированному пользователю выполнять ЗАПРОСЫ к коллекции users
+      // (для проверки никнейма через whereEqualTo), но НЕ читать чужие документы целиком (get).
+      allow list: if request.auth != null;
+      
+      // Разрешить создавать и обновлять свой профиль
+      allow create, update: if request.auth != null && request.auth.uid == userId;
+      
+      // Запретить удалять
+      allow delete: if false;
+    }
+    
+    // Правила для коллекции книг
+    match /books/{bookId} {
+      // Разрешить читать ЛЮБУЮ книгу ЛЮБОМУ аутентифицированному пользователю
+      // (Если нужно ограничить чтение только своими книгами, измените на:
+      // allow read: if request.auth != null && resource.data.userId == request.auth.uid; )
+      allow read: if request.auth != null;
+      
+      // Разрешить создавать/обновлять/удалять книгу,
+      // только если userId в сохраняемых данных совпадает с ID пользователя
+      // и пользователь аутентифицирован.
+      allow create, update, delete: if request.auth != null
+                                    && request.resource.data.userId == request.auth.uid;
+    }
+    
+    // TODO: Добавить правила для других коллекций (если они появятся)
+  }
+} 

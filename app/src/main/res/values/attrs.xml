@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3 attributes -->
+    <attr name="textAppearanceDisplayLarge" format="reference" />
+    <attr name="textAppearanceDisplayMedium" format="reference" />
+    <attr name="textAppearanceDisplaySmall" format="reference" />
+    <attr name="textAppearanceHeadlineLarge" format="reference" />
+    <attr name="textAppearanceHeadlineMedium" format="reference" />
+    <attr name="textAppearanceHeadlineSmall" format="reference" />
+    <attr name="textAppearanceTitleLarge" format="reference" />
+    <attr name="textAppearanceTitleMedium" format="reference" />
+    <attr name="textAppearanceTitleSmall" format="reference" />
+    <attr name="textAppearanceBodyLarge" format="reference" />
+    <attr name="textAppearanceBodyMedium" format="reference" />
+    <attr name="textAppearanceBodySmall" format="reference" />
+    <attr name="textAppearanceLabelLarge" format="reference" />
+    <attr name="textAppearanceLabelMedium" format="reference" />
+    <attr name="textAppearanceLabelSmall" format="reference" />
+
+    <!-- Color attributes -->
+    <attr name="colorPrimary" format="reference|color" />
+    <attr name="colorPrimaryContainer" format="reference|color" />
+    <attr name="colorOnPrimary" format="reference|color" />
+    <attr name="colorOnPrimaryContainer" format="reference|color" />
+    <attr name="colorSecondary" format="reference|color" />
+    <attr name="colorSecondaryContainer" format="reference|color" />
+    <attr name="colorOnSecondary" format="reference|color" />
+    <attr name="colorOnSecondaryContainer" format="reference|color" />
+    <attr name="colorTertiary" format="reference|color" />
+    <attr name="colorTertiaryContainer" format="reference|color" />
+    <attr name="colorOnTertiary" format="reference|color" />
+    <attr name="colorOnTertiaryContainer" format="reference|color" />
+    <attr name="colorError" format="reference|color" />
+    <attr name="colorErrorContainer" format="reference|color" />
+    <attr name="colorOnError" format="reference|color" />
+    <attr name="colorOnErrorContainer" format="reference|color" />
+    <attr name="colorBackground" format="reference|color" />
+    <attr name="colorOnBackground" format="reference|color" />
+    <attr name="colorSurface" format="reference|color" />
+    <attr name="colorOnSurface" format="reference|color" />
+    <attr name="colorSurfaceVariant" format="reference|color" />
+    <attr name="colorOnSurfaceVariant" format="reference|color" />
+    <attr name="colorOutline" format="color" />
+    <attr name="colorOutlineVariant" format="color" />
+    <attr name="colorScrim" format="color" />
+    <attr name="colorInverseSurface" format="reference|color" />
+    <attr name="colorInverseOnSurface" format="reference|color" />
+    <attr name="colorInversePrimary" format="reference|color" />
+    <attr name="colorSurfaceTint" format="reference|color" />
+</resources> 

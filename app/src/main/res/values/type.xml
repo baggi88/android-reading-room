@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Display styles -->
+    <style name="TextAppearance.ReadingRoom.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <!-- Headline styles -->
+    <style name="TextAppearance.ReadingRoom.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <!-- Title styles -->
+    <style name="TextAppearance.ReadingRoom.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:fontFamily">@font/philosopher_bold</item>
+    </style>
+
+    <!-- Body styles -->
+    <style name="TextAppearance.ReadingRoom.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+    </style>
+
+    <!-- Label styles -->
+    <style name="TextAppearance.ReadingRoom.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+    </style>
+
+    <style name="TextAppearance.ReadingRoom.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/philosopher_regular</item>
+    </style>
+</resources> 
